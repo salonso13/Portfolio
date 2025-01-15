@@ -19,10 +19,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="es">
       <body className={`${funnelDisplay.variable} antialiased`}>
         <Navbar />
-        <div className="pt-[55px]">{children}</div>
+        <div className="pt-[56px]">{children}</div>
       </body>
     </html>
   );

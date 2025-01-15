@@ -1,4 +1,4 @@
-import {Linkedin, Twitter, Instagram} from "lucide-react";
+import {Linkedin, Twitter, Instagram, Github} from "lucide-react";
 
 export const socialNetworks = [
     {
@@ -16,6 +16,11 @@ export const socialNetworks = [
         logo: <Twitter size={30} strokeWidth={1} />,
         src: "https://x.com/troponsanwis",
     },
+    {
+        id: 4,
+        logo: <Github size={30} strokeWidth={1}/>,
+        src: "https://github.com/salonso13"
+    },
 ];
 
 
@@ -24,7 +29,7 @@ export const itemsNavbar = [
         id: 1,
         title: "Inicio",
         icon: "Inicio",
-        link: "#",
+        link: "#inicio",
     },
     {
         id: 2,
