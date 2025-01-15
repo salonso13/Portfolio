@@ -3,19 +3,20 @@
 @tailwind utilities;
 
 html,
-body{
+body {
   color: #000000;
   background: #ffffff;
+  font-size: 16px;
 }
 
-main{
+main {
   background: #747474;
   height: 100vh;
   height: 100dvh;
 }
 
 @layer utilities {
-  .text-balance{
-    text-wrap : balance;
+  .text-balance {
+    text-wrap: balance;
   }
 }

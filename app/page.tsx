@@ -1,25 +1,26 @@
-import CoverParticles from "@/components/cover-particles";
 import TransitionPage from "@/components/transition-page";
-import Photo from "@/components/photo"
+import Photo from "@/components/photo";
 import AboutMe from "@/components/about-me";
+import ContactMe from "@/components/contac";
 
 export default function Home() {
   return (
-    <main>
-      <TransitionPage />
-      <div className="flex min-h-[30vh] bg-norepeat bg-gradient-cover">
-        <CoverParticles />
+    <div>
+      {/* Sección de Foto */}
+      <div>
+        <TransitionPage />
         <Photo />
       </div>
 
-      <div id="about-me" className="min-h-[100vh] bg-white ">
-        <AboutMe/>
+      {/* Sección "Sobre Mi" */}
+      <div id="about-me">
+        <AboutMe />
       </div>
 
-      <div id="contactame" className="min-h-[100vh] bg-secondary">
-        <h2>Contáctame</h2>
-        <p>Contenido de contacto...</p>
+      {/* Sección "Contáctame" */}
+      <div id="contactame">
+        <ContactMe/>
       </div>
-    </main>    
+    </div>
   );
 }
