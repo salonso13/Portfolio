@@ -5,7 +5,6 @@ import CoverParticles from "./cover-particles";
 const Photo = () => {
   return (
     <div
-      id="inicio"
       className="relative w-full h-[40vh] sm:h-[50vh] md:h-[60vh] bg-darkBg overflow-hidden"
     >
       {/* Partículas limitadas al contenedor */}
