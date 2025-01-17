@@ -27,6 +27,7 @@ export default function Home() {
       <div id="contactame">
         <ContactMe/>
       </div>
+      <div className="h-[5vh]"></div>
     </div>
   );
 }

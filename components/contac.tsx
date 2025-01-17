@@ -20,12 +20,12 @@ const ContactMe = () => {
           <p className="text-sm sm:text-base pt-2">s.alonsorevueltas@gmail.com</p>
 
           <h1 className="text-lg sm:text-xl md:text-2xl font-bold pt-5">Localidad:</h1>
-          <p className="text-sm sm:text-base pt-2">Madrid, España</p>
+          <p className="text-sm sm:text-base pt-2 pb-10">Madrid, España</p>
         </div>
         </div>
 
         {/* Columna Derecha */}
-        <div className="w-full md:w-1/2 px-2 md:px-5 z-10">
+        <div className="w-full md:w-1/2 md:px-5 z-10">
         <form className="pl-[5%]" action="https://formspree.io/f/xjkkzezq" method="POST">
             <input id="nomb" placeholder="Nombre o Empresa" type="text" min="1" max="20" name="Name" />
             <input id="asun" placeholder="Asunto" type="text" name="Subject" />

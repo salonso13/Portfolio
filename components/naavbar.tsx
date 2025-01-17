@@ -69,7 +69,7 @@ const Navbar = () => {
 
         {/* Menú desplegable de pantalla completa (Pantallas Pequeñas) */}
         {isMenuOpen && (
-          <div className="fixed inset-0 bg-white flex flex-col justify-center items-center z-40">
+          <div className="fixed inset-0 bg-white flex flex-col justify-center items-center z-50">
             {/* Botón para cerrar el menú */}
             <button
               onClick={() => setIsMenuOpen(false)}

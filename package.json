@@ -11,6 +11,9 @@
   "dependencies": {
     "@babel/preset-react": "^7.26.3",
     "@formspree/core": "^3.0.1",
+    "@heroui/system": "^2.4.6",
+    "@heroui/theme": "^2.4.5",
+    "@heroui/tooltip": "^2.2.7",
     "@stripe/react-stripe-js": "^3.1.1",
     "@stripe/stripe-js": "^5.5.0",
     "@swc/core": "^1.10.7",
@@ -21,12 +24,16 @@
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.7.1",
     "eslint-plugin-react-hooks": "^5.1.0",
+    "framer-motion": "^11.18.0",
     "lucide-react": "^0.471.1",
     "motion": "^11.18.0",
     "next": "15.1.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-type-animation": "^3.2.0"
+    "react-icons": "^5.4.0",
+    "react-type-animation": "^3.2.0",
+    "swiper": "^11.2.1",
+    "tooltip": "^1.6.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
