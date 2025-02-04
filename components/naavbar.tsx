@@ -4,7 +4,7 @@ import { useState } from "react";
 import { itemsNavbar } from "@/data";
 import { socialNetworks } from "@/data";
 import { MotionTransition } from "./transition-component";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

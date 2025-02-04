@@ -5,7 +5,7 @@ import "swiper/css";
 import { BsGithub } from "react-icons/bs";
 import { Tooltip } from "@heroui/tooltip";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const projects = [
   {
@@ -14,7 +14,16 @@ const projects = [
     descripcion:
       "API para autenticación y gestión de suscripciones personales, con soporte para tokens JWT (generación, validación y revocación), gestión de claves API seguras y funcionalidades avanzadas de seguridad.",
     image: "/GestorSus.png",
-    github: "",
+    github: "https://github.com/salonso13/Gestor-suscripciones",
+    alt: "Gestor Suscripciones",
+  },
+  {
+    id: "2",
+    titulo: "API ChatBot con Gemini",
+    descripcion:
+      "API que usa la clave de Gemini para crear un chatbot inteligente, permitiendo interacciones en tiempo real con respuestas contextuales.",
+    image: "/chatbot.png",
+    github: "https://github.com/salonso13/Api-ChatBot.git",
     alt: "Gestor Suscripciones",
   },
 ];
