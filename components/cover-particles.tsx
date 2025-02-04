@@ -4,18 +4,11 @@ import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
 
 const CoverParticles = () => {
-<<<<<<< HEAD
 
   useEffect(() => {
     initParticlesEngine(async (engine) => {
       await loadSlim(engine);
     });
-=======
-  useEffect(() => {
-    initParticlesEngine(async (engine) => {
-      await loadSlim(engine);
-    }).then();
->>>>>>> 52eea438f086de5590f4dec93169f125a1bae402
   }, []);
 
   return (
